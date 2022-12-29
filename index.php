@@ -104,7 +104,7 @@
             <div class="row it_works">
               <?php
 
-                        $link = mysqli_connect('database', 'ecomuser', 'ecompassword', 'ecomdb');
+                        $link = mysqli_connect('hostname', 'ashiq', 'ashiqpassword', 'ashiqdb');
 
                         if ($link) {
                         $res = mysqli_query($link, "select * from products;");
